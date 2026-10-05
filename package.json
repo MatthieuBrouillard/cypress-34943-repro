@@ -1,0 +1,18 @@
+{
+  "name": "cypress-34943-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node run-each.mjs",
+    "open": "cypress open --component --browser chrome"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.1.1",
+    "cypress": "16.1.0",
+    "msw": "2.15.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.0"
+  }
+}
